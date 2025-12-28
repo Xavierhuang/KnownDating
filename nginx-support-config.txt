@@ -1,0 +1,14 @@
+# Add this location block to /etc/nginx/sites-available/chatwithgods.com
+# Place it BEFORE the "location /" block so it takes precedence
+
+    # Support page - proxy to backend
+    location /support {
+        proxy_pass http://localhost:3002;
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+
+
