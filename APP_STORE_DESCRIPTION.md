@@ -70,16 +70,13 @@ Start your journey to find someone who truly gets you.
 ---
 
 ## Support URL
-https://known.app/support
-(Update this with your actual support URL)
+https://xavierhuang.github.io/KnownDating/support.html
 
 ## Marketing URL (optional)
-https://known.app
-(Update this with your actual marketing website)
+https://xavierhuang.github.io/KnownDating/
 
 ## Privacy Policy URL
-https://known.app/privacy
-(Update this with your actual privacy policy URL)
+https://xavierhuang.github.io/KnownDating/privacy.html
 
 ## App Category
 Social Networking
